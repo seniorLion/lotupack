@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('fonts/Montserrat-Bold.woff2');
+}
+
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -104,10 +109,13 @@ input, select {
 }
 
 .header {
+  font-family: Montserrat-Bold;
+  font-weight: 700;
+  font-size: 23px;
+  color: #fff;
   height: 85px;
   background-image: linear-gradient(to right, #2B72A5 78%, #C0C9D1);
 }
-
 .container {
   max-width: 1920px;
 }
